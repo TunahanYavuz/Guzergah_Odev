@@ -28,7 +28,7 @@ fn softmax(degerler:&[f64]) ->Vec<f64>{
 fn main() {
     let guzergahlar = vec![
         Guzergah{
-            isim: String::from("Kampüs Yurt"),
+            isim: String::from("Kampüs-Yurt"),
             istasyon_sayisi: 2.0,
             mesafe: 3.9,
             zaman: 9.0,
@@ -39,7 +39,7 @@ fn main() {
             nufus_yogunlugu: 80.0,
         },
         Guzergah{
-            isim: String::from("Kampüs Merkez"),
+            isim: String::from("Kampüs-Merkez"),
             istasyon_sayisi: 7.0,
             mesafe: 11.0,
             zaman: 25.0,
@@ -50,7 +50,7 @@ fn main() {
             nufus_yogunlugu: 85.0,
         },
         Guzergah{
-            isim: String::from("Yurt Merkez"),
+            isim: String::from("Yurt-Merkez"),
             istasyon_sayisi: 6.0,
             mesafe: 7.9,
             zaman: 16.0,
@@ -61,7 +61,7 @@ fn main() {
             nufus_yogunlugu: 90.0,
         },
         Guzergah{
-            isim: String::from("Otogar Tokiler"),
+            isim: String::from("Otogar-Tokiler"),
             istasyon_sayisi: 6.0,
             mesafe: 3.4,
             zaman: 15.0,
